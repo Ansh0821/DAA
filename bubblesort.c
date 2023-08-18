@@ -50,6 +50,6 @@ void main()
     printf("--------The sorted array is--------\n");
     printArray(arr, n);
 
-    double final = (double)(end - start)/CLOCKS_PER_SEC;
+    double final = (double)(end - start) / CLOCKS_PER_SEC;
     printf("\n Total time taken = %f", final);
 }
