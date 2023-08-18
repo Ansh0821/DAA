@@ -2,6 +2,7 @@
 #include <stdlib.h>
 int dist[10];
 int visited[10];
+
 void dijk(int V[10][10], int n, int source)
 {
     int u, v;
